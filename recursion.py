@@ -26,3 +26,5 @@ def fact(x):
         return 1
     else:
         return x * fact(x - 1)
+
+print(fact(3))
